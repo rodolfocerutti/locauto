@@ -25,7 +25,7 @@ $dado = mysqli_fetch_assoc($conx);
 <td><input type="date" name="nasc" size=10 maxlength=10 required value=<?php echo $dado['nasc'];?>></td></tr>
 <tr><th><input type="submit" value="Gravar"></th>
 </form>
-<form action="index.html" method="get">
+<form action="index.php" method="get">
     <th>
     <input type="submit" value="Voltar">
     </th></tr>

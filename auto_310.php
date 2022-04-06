@@ -23,7 +23,7 @@ $auto->Alterar();
 <td><?php echo ($auto->getPreco())?></td></tr>
 </table><p>
 <div>Automóvel alterado com sucesso !!!</div><p></p>
-<form name="manut" action="index.html" method=get>
+<form name="manut" action="index.php" method=get>
 <input name="volta" type=submit value="Voltar">
 </form>
 </font>

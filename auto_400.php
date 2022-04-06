@@ -16,7 +16,7 @@ $auto->Excluir();
 <br><br>
 <div>Automóvel <?php echo $auto->getRenavam();?> excluído</div>
 <br><br>
-<form action="index.html" method="get">
+<form action="index.php" method="get">
     <input type="submit" value="Voltar">
 </form>
 </body>

@@ -18,7 +18,7 @@ $res->Fechar();
 <tr><td><?php echo($res->getNumero())?></td><td><?php echo ($res->getRetorno())?></td></tr>
 </table><p>
 <div>Reserva alterada com sucesso !!!</div><p></p>
-<form name="manut" action="index.html" method=get>
+<form name="manut" action="index.php" method=get>
 <input name="volta" type=submit value="Voltar">
 </form>
 </font>

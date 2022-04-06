@@ -47,7 +47,7 @@ $conx = mysqli_query($con,$consulta);
 <input type="submit" name="butreg" value="Gravar">
 </th>
 </form>
-<form name="volta" action="index.html" method="get">
+<form name="volta" action="index.php" method="get">
 <th>
 <input type="submit" name="butvolta" value="Voltar">
 </th></tr>

@@ -14,7 +14,7 @@ $cob->RegistrarPagto();
 <div>Cobrança - Registro de Pagamento</div>
 <div>Número da Reserva <?php echo($cob->getNumero())?></div>
 <div>Registro de pagamento realizado !!!</div><p>
-<form name="manut" action="index.html" method=get>
+<form name="manut" action="index.php" method=get>
 <input name="volta" type=submit value="Voltar">
 </form>
 </body>

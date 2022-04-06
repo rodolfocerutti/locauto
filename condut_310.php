@@ -20,7 +20,7 @@ $cond->Alterar();
 <td><?php echo($cond->getNasc())?></td></tr>
 </table><p>
 <div>Condutor alterado com sucesso !!!</div><p></p>
-<form name="manut" action="index.html" method=get>
+<form name="manut" action="index.php" method=get>
 <input name="volta" type=submit value="Voltar">
 </form>
 </font>

@@ -33,7 +33,7 @@ $cob->Calcular();
 <tr><th colspan=2>
 <input type="submit" name="subpg" id="subpg" value="Registrar Pagamento" disabled></th>
 </form>
-<form name="manut" action="index.html" method=get>
+<form name="manut" action="index.php" method=get>
 <th><input name="volta" type=submit value="Voltar"></th></tr>
 </form>
 </table>

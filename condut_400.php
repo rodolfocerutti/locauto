@@ -16,7 +16,7 @@ $cond->Excluir();
 <br><br>
 <div>Condutor <?php echo $cond->getCnh();?> excluído</div>
 <br><br>
-<form action="index.html" method="get">
+<form action="index.php" method="get">
     <input type="submit" value="Voltar">
 </form>
 </body>

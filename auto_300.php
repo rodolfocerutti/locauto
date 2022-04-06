@@ -46,7 +46,7 @@ $dado = mysqli_fetch_assoc($conx);
 style="text-align:right;"></td></tr>
 <tr><th><input type="submit" value="Gravar"></th>
 </form>
-<form action="index.html" method="get">
+<form action="index.php" method="get">
     <th>
     <input type="submit" value="Voltar">
     </th></tr>

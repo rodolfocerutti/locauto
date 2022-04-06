@@ -33,7 +33,7 @@ value="<?php echo(date("d/m/Y",strtotime($dado['saida'])));?>"></td></tr>
 <tr><th><input type="button" id="butvalida" value="Validar data de retorno" onclick="validaret()"></th>
 <th><input type="submit" id="subgrava" value="Gravar" disabled></th>
 </form>
-<form action="index.html" method="get">
+<form action="index.php" method="get">
     <th>
     <input type="submit" value="Voltar">
     </th></tr>

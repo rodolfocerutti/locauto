@@ -23,7 +23,7 @@ $auto->Incluir();
 <td><?php echo ($auto->getPlaca())?></td><td><?php echo (number_format($auto->getPreco(),2,',','.'))?></td></tr>
 </table><p>
 <div>Automóvel incluído com sucesso !!!</div><p>
-<form name="manut" action="index.html" method=get>
+<form name="manut" action="index.php" method=get>
 <input name="volta" type=submit value="Voltar">
 </form>
 </font>

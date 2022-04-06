@@ -21,7 +21,7 @@ $res->Registrar();
 <td><?php echo($res->getCondut())?></td><td><?php echo($res->getAuto())?></td></tr>
 </table><p>
 <div>Reserva incluída com sucesso !!!</div><p></p>
-<form name="manut" action="index.html" method=get>
+<form name="manut" action="index.php" method=get>
 <input name="volta" type=submit value="Voltar">
 </form>
 </font>
